@@ -5,7 +5,7 @@ const STORY = {
     scene_1: {
         act: 'АКТ I • ПЕРВАЯ ВСТРЕЧА',
         locationName: 'ЛЕТНЯЯ КОФЕЙНЯ • ВЕЧЕР',
-        bgImage: 'assets/cafe.jpg',
+        bgImage: 'cafe.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -23,7 +23,7 @@ const STORY = {
     scene_2: {
         act: 'АКТ I • ПЕРВАЯ ВСТРЕЧА',
         locationName: 'ЛЕТНЯЯ КОФЕЙНЯ • ВЕЧЕР',
-        bgImage: 'assets/cafe1.jpg',
+        bgImage: 'cafe1.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -39,7 +39,7 @@ const STORY = {
     scene_3: {
         act: 'АКТ I • ДОРОГА ДОМОЙ',
         locationName: 'НОЧНАЯ УЛИЦА',
-        bgImage: 'assets/street_night.jpg',
+        bgImage: 'street_night.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -56,7 +56,7 @@ const STORY = {
     scene_4: {
         act: 'АКТ I • ПЕРВОЕ СВИДАНИЕ',
         locationName: 'У ДОМА ЛИНЫ • ВЕЧЕР',
-        bgImage: 'assets/lina_home.jpg',
+        bgImage: 'lina_home.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -75,7 +75,7 @@ const STORY = {
     scene_5: {
         act: 'АКТ I • ПРИЗНАНИЕ',
         locationName: 'ГОРОДСКОЙ ПАРК',
-        bgImage: 'assets/park.jpg',
+        bgImage: 'park.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -92,7 +92,7 @@ const STORY = {
     scene_6: {
         act: 'АКТ I • НАШ ДОМ',
         locationName: 'СОВМЕСТНАЯ КВАРТИРА',
-        bgImage: 'assets/home_cozy.jpg',
+        bgImage: 'home_cozy.jpg',
         bgClass: 'bg-home-cozy',
         vfx: 'none',
         lines: [
@@ -107,7 +107,7 @@ const STORY = {
     scene_7: {
         act: 'АКТ I • ПУТЕШЕСТВИЕ',
         locationName: 'САЛОН САМОЛЕТА • В ПОЛЕТЕ',
-        bgImage: 'assets/airplane.jpg',
+        bgImage: 'airplane.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -124,7 +124,7 @@ const STORY = {
     scene_8: {
         act: 'АКТ I • ОТПУСК',
         locationName: 'МОРСКОЙ КУРОРТ',
-        bgImage: 'assets/vacation_1.jpg',
+        bgImage: 'vacation_1.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -136,7 +136,7 @@ const STORY = {
     scene_9: {
         act: 'АКТ I • ПРЕДЛОЖЕНИЕ',
         locationName: 'ВУКАН • СМОТРОВАЯ ПЛОЩАДКА',
-        bgImage: 'assets/volcano.jpg',
+        bgImage: 'volcano.jpg',
         bgClass: 'bg-warm-cafe',
         vfx: 'grain',
         lines: [
@@ -154,7 +154,7 @@ const STORY = {
     scene_10: {
         act: 'АКТ I • НОВОСТЬ',
         locationName: 'НАШ ДОМ',
-        bgImage: 'assets/home_cozy1.jpg',
+        bgImage: 'home_cozy1.jpg',
         bgClass: 'bg-home-cozy',
         vfx: 'none',
         lines: [
@@ -174,7 +174,7 @@ const STORY = {
     scene_11: {
         act: 'АКТ II • ПРОШЛЫЕ ГОДА',
         locationName: 'НАШ ДОМ • ВЕЧЕР',
-        bgImage: 'assets/home_cozy2.jpg',
+        bgImage: 'home_cozy2.jpg',
         bgClass: 'bg-home-cozy',
         vfx: 'none',
         lines: [
@@ -195,7 +195,7 @@ const STORY = {
     scene_12: {
         act: 'АКТ II • СЕМЬЯ',
         locationName: 'РЕСТОРАН • ВЕЧЕР',
-        bgImage: 'assets/restaurant.jpg',
+        bgImage: 'restaurant.jpg',
         bgClass: 'bg-home-cozy',
         vfx: 'none',
         lines: [
@@ -223,7 +223,7 @@ const STORY = {
     scene_13: {
         act: 'АКТ II • ВЕЧЕР ДОМА',
         locationName: 'КВАРТИРА • ВЕЧЕР',
-        bgImage: 'assets/home_cozy3.jpg',
+        bgImage: 'home_cozy3.jpg',
         bgClass: 'bg-home-cozy',
         vfx: 'none',
         lines: [
@@ -253,7 +253,7 @@ const STORY = {
     scene_14: {
         act: 'АКТ II • НАЧАЛО ВОЙНЫ',
         locationName: 'ГОСТИНАЯ • ТВ',
-        bgImage: 'assets/tv_news.jpg',
+        bgImage: 'tv_news.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -282,7 +282,7 @@ const STORY = {
     scene_15: {
         act: 'АКТ III • ПОВЕСТКА',
         locationName: 'НАШ ДОМ • СЕРИЯ ТРЕВОГ',
-        bgImage: 'assets/home_alarm.jpg',
+        bgImage: 'home_alarm.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -306,7 +306,7 @@ const STORY = {
     scene_16: {
         act: 'АКТ III • ПЕРРОН',
         locationName: 'ВОКЗАЛ • ОТПРАВЛЕНИЕ',
-        bgImage: 'assets/station.jpg',
+        bgImage: 'station.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -325,7 +325,7 @@ const STORY = {
     scene_17: {
         act: 'АКТ III • ФРОНТ И ПЕРЕЕЗД',
         locationName: 'ШТАБ • ФРОНТ',
-        bgImage: 'assets/front_hq.jpg',
+        bgImage: 'front_hq.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -346,7 +346,7 @@ const STORY = {
     scene_18: {
         act: 'АКТ III • ПОСЛЕДНЯЯ ВСТРЕЧА',
         locationName: 'ДОМА НА ВРЕМЯ',
-        bgImage: 'assets/home_cozy4.jpg',
+        bgImage: 'home_cozy4.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -375,7 +375,7 @@ const STORY = {
     scene_19: {
         act: 'АКТ III • ПРОЩАНИЕ НАВСЕГДА',
         locationName: 'КОСМОПОРТ • ЭВАКУАЦИЯ',
-        bgImage: 'assets/spaceport.jpg',
+        bgImage: 'spaceport.jpg',
         bgClass: 'bg-war-alarm',
         vfx: 'alert',
         lines: [
@@ -407,7 +407,7 @@ const STORY = {
     scene_20: {
         act: 'АКТ IV • ОКОНЧАНИЕ ВОЙНЫ',
         locationName: 'ЗЕМЛЯ • РАЗРУШЕНИЯ',
-        bgImage: 'assets/earth_ruins.jpg',
+        bgImage: 'earth_ruins.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -440,7 +440,7 @@ const STORY = {
     scene_21: {
         act: 'АКТ IV • КОРАБЛЬ И КОСМОДРОМ',
         locationName: 'ЦЕНТР УПРАВЛЕНИЯ',
-        bgImage: 'assets/space_center.jpg',
+        bgImage: 'space_center.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -465,7 +465,7 @@ const STORY = {
     scene_22: {
         act: 'АКТ IV • БЕСКОНЕЧНЫЙ ПОИСК',
         locationName: 'ПЛАНЕТЫ • СЕКТОР ЗА СЕКТОРОМ',
-        bgImage: 'assets/alien_planet_1.jpg',
+        bgImage: 'alien_planet_1.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -485,7 +485,7 @@ const STORY = {
     scene_22_1: {
         act: 'АКТ IV • БЕСКОНЕЧНЫЙ ПОИСК',
         locationName: 'ПЛАНЕТА КАССИОПЕЯ-4 • КОРПОРАТИВНЫЙ СЕКТОР',
-        bgImage: 'assets/alien_planet_2.jpg',
+        bgImage: 'alien_planet_2.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -501,7 +501,7 @@ const STORY = {
     scene_22_2: {
         act: 'АКТ IV • БЕСКОНЕЧНЫЙ ПОИСК',
         locationName: 'ПЛАНЕТА ОАЗИС-БЕТА • ТОРГОВЫЙ ПОРТ',
-        bgImage: 'assets/alien_planet_3.jpg',
+        bgImage: 'alien_planet_3.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -516,7 +516,7 @@ const STORY = {
     scene_22_3: {
         act: 'АКТ IV • БЕСКОНЕЧНЫЙ ПОИСК',
         locationName: 'ВНЕШНИЙ РУБЕЖ • ДИКИЙ СЕКТОР',
-        bgImage: 'assets/alien_planet_4.jpg',
+        bgImage: 'alien_planet_4.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
@@ -531,7 +531,7 @@ const STORY = {
     scene_23: {
         act: 'АКТ IV • ФИНАЛ',
         locationName: 'БЕСКОНЕЧНЫЙ КОСМОС • ОДИНОЧЕСТВО',
-        bgImage: 'assets/deep_space_final.jpg',
+        bgImage: 'deep_space_final.jpg',
         bgClass: 'bg-deep-space',
         vfx: 'space',
         lines: [
