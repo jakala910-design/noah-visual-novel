@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>На одной из...</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Слой 1: Фон -->
+        <div id="bg-layer" class="layer bg-warm-cafe">
+            <div id="bg-placeholder-label">ЛОКАЦИЯ</div>
+        </div>
+
+        <!-- Слой 2: Спецэффекты (VFX) -->
+        <div id="vfx-layer">
+            <div id="vfx-grain" class="vfx hidden"></div>
+            <div id="vfx-alert" class="vfx hidden"></div>
+            <canvas id="space-canvas" class="vfx hidden"></canvas>
+        </div>
+
+        <!-- Слой 3: Персонаж -->
+        <div id="character-layer">
+            <img id="char-sprite" src="" alt="" class="hidden">
+            <div id="char-placeholder" class="hidden"></div>
+        </div>
+
+<!-- Верхняя панель статуса (Акт / Кнопки управления) -->
+        <div id="hud-top">
+            <span id="act-badge">АКТ I</span>
+            <div id="hud-buttons">
+                <button id="history-toggle" title="История диалогов">📜</button>
+                <button id="auto-toggle" title="Автопрокрутка текста">▶</button>
+                <button id="menu-btn" title="Выход в меню">🏠</button>
+                <button id="audio-toggle" title="Звук">🔇</button>
+            </div>
+        </div>
+
+        <!-- Окно истории диалогов -->
+        <div id="history-modal" class="hidden">
+            <div class="history-content">
+                <div class="history-header">
+                    <h3>История диалогов</h3>
+                    <button id="history-close">✕</button>
+                </div>
+                <div id="history-list"></div>
+            </div>
+        </div>
+
+        <!-- Слой 4: Варианты выбора -->
+        <div id="choices-overlay" class="hidden">
+            <div id="choices-container"></div>
+        </div>
+
+        <!-- Слой 5: Диалоговое окно -->
+        <div id="dialogue-box" class="hidden">
+            <div id="speaker-name">Ноа</div>
+            <div id="dialogue-text"></div>
+            <div id="next-indicator">▼</div>
+        </div>
+
+        <!-- Главное меню (Стартовый экран) -->
+        <div id="start-screen">
+            <div class="title-block">
+                <p class="subtitle">ИНТЕРАКТИВНАЯ ИСТОРИЯ</p>
+                <h1>НА ОДНОЙ ИЗ</h1>
+                <p class="desc">Ноа. Лина. Ник. И бесконечность между ними.</p>
+                
+                <div class="menu-buttons">
+                    <button id="btn-new-game" class="menu-btn primary-btn">Новая игра</button>
+                    <button id="btn-continue" class="menu-btn secondary-btn hidden">Продолжить</button>
+                    <button id="btn-author" class="menu-btn secondary-btn">Контакты автора</button>
+                    <button id="btn-support" class="menu-btn secondary-btn">Поддержка игры</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно для инфо / контактов -->
+        <div id="info-modal" class="hidden">
+            <div class="modal-content">
+                <h3 id="modal-title">Заголовок</h3>
+                <p id="modal-text">Текст информации...</p>
+                <button id="modal-close" class="primary-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="bgm-player" loop></audio>
+
+    <script src="story.js"></script>
+    <script src="engine.js"></script>
+</body>
+</html>
